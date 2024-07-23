@@ -1,5 +1,5 @@
 // if(r_in(3,{1,2,3,4})) will evaluate as 1
-int r_in(int pos,int[] pos_var) {
+int r_in(int pos,array[] int pos_var) {
   
   for (p in 1:(size(pos_var))) {
     if (pos_var[p]==pos) {

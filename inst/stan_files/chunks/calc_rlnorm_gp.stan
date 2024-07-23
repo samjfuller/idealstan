@@ -10,7 +10,7 @@ takes one user input to determine number of time points to calculate maximum dif
     
     
     for(n in 1:(num_elements(x)-1)) {
-          diff_elem[n] = fabs(x[n+1] - x[n]);
+          diff_elem[n] = abs(x[n+1] - x[n]);
       }
       
     rl_mean = mean(diff_elem)*num_diff;

@@ -7,7 +7,7 @@ functions {
 #include /chunks/calc_rlnorm_gp.stan
 #include /chunks/id_params.stan
 // #include /chunks/r_in.stan
-int r_in(int pos,int[] pos_var) {
+int r_in(int pos,array[] int pos_var) {
   
   for (p in 1:(size(pos_var))) {
     if (pos_var[p]==pos) {
